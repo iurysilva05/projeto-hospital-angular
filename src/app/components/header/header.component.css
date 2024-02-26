@@ -1,0 +1,20 @@
+header {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+
+header .apresentacao h1{
+
+  color: blue;
+  margin-left: -500px;
+  margin-top: 40px;
+  font-size: 60px;
+}
+
+
+
+

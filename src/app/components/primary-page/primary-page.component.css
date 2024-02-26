@@ -1,0 +1,52 @@
+
+
+main .boxmsmacesso{
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+main .boxacessologin{
+
+  background-color:blue;
+  width: 300px;
+  margin-left: 40px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+
+
+.btn-acsslogin button:hover{
+  cursor: pointer;
+}
+
+
+ .boxmsmacesso .headermsm .msm {
+  color: white;
+  margin-left: 85px;
+}
+
+main .boxacessologin .btn-acsslogin button {
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+  margin-left: 90px;
+
+}
+
+
+ main .boxacessologin .mensagemacesso h2 {
+  color: white;
+  margin-left: 30px;
+  padding: 5px;
+}
+
+
+.boxmsmacesso .headermsm .inf {
+  color: white;
+}

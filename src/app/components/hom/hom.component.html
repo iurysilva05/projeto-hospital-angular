@@ -1,0 +1,32 @@
+
+<section>
+
+  <form class="teladelogin" [formGroup]="myformslogin">
+
+    <h1 class="titulo-login">Login</h1>
+
+    <div class="boxemail">
+        <label for="email"> Seu e-mail </label>
+        <input type="email" placeholder="Ex:12345678980@gmail.com" formControlName="email" id="email" >
+    </div>
+
+    <div class="boxsenha">
+        <label for="senha">Senha</label>
+        <input type="password" placeholder="1234"  formControlName="senha" id="senhaInput">
+        <label id="boxseepassword"> Mostrar senha <input type="checkbox" class="boxseehide" (change)="mostrarOcultarSenha()" > </label>
+    </div>
+
+    <div class="btn-login">
+      <btn-primary btn-text="Entrar" variant="primary" (submit)="dosubmit()" [disabled]="!myformslogin.valid"></btn-primary>
+    </div>
+
+    <br>
+    <a href="https://github.com/jeanf009" target="_blank" rel="external" class="esqueceuasenha"> Esqueci a senha </a>
+
+  </form>
+
+  <div class="voltarprimarypage">
+    <button (click)="voltarPaginaAnterior()">Voltar a pagina principal</button>
+  </div>
+
+</section>

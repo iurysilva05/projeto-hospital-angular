@@ -1,0 +1,110 @@
+
+
+
+section {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.teladelogin {
+
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+  background-color: #c9d6ff;
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+  border-radius: 10px;
+
+}
+
+section .teladelogin .boxemail {
+
+  height: 50px;
+  width: 250px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+section .teladelogin .boxsenha {
+
+  height: 50px;
+  width: 250px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+input {
+  padding: 4px;
+}
+
+
+.titulo-login {
+  font-size: 35px;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.esqueceuasenha {
+
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+.esqueceuasenha:hover {
+  text-decoration: underline;
+}
+
+
+
+#boxseepassword {
+  margin-left: 130px;
+  margin-top: 5px;
+
+}
+
+
+
+.btn-login {
+  margin-top: 20px;
+}
+
+
+
+
+.boxseehide:hover{
+  cursor: pointer;
+}
+
+
+
+
+.voltarprimarypage {
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  transform: translate(-80%, -80%);
+
+}
