@@ -7,12 +7,12 @@
 
     <div class="boxemail">
         <label for="email"> Seu e-mail </label>
-        <input type="email" placeholder="Ex:12345678980@gmail.com" formControlName="email" id="email" >
+        <input type="email" placeholder="Ex:12345678980@gmail.com" formControlName="email" id="email" required>
     </div>
 
     <div class="boxsenha">
         <label for="senha">Senha</label>
-        <input type="password" placeholder="1234"  formControlName="senha" id="senhaInput">
+        <input type="password" placeholder="1234"  formControlName="senha" id="senhaInput" required>
         <label id="boxseepassword"> Mostrar senha <input type="checkbox" class="boxseehide" (change)="mostrarOcultarSenha()" > </label>
     </div>
 
