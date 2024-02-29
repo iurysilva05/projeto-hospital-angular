@@ -13,12 +13,22 @@
 
 .form-agendamento {
 
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
   width: 500px;
-  height: 400px;
-  border: solid 5px black;
+  height: 450px;
+
   padding: 30px;
 
 
+}
+
+
+.boxdadosag .titoloag {
+
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
 }
 
 
@@ -31,6 +41,20 @@
 
 }
 
+
+.form-agendamento .btn-agendamento button {
+
+  margin-left: 10px;
+  width: 80px;
+  height: 35px;
+  cursor: pointer;
+}
+
+
+
+.boxdadosag input {
+  height: 20px;
+}
 
 
 
