@@ -4,20 +4,24 @@
     <img ngSrc="./assets/download.png" priority width="350" height="100" />
 
     <nav class="cabecalho-menu-t">
-        <div class="cabecalho-menu"><button>Agendamento</button></div>
-        <div class="cabecalho-menu"><button>Resultado</button></div>
-        <div class="cabecalho-menu"><button id="noticias">Notícias</button></div>
-    </nav>
-</div>
 
-<div class="servicos">
-    <ul class="list-servicos">
-        <li><a href="#">Institucional</a></li>
-        <li><a href="#">Estrutura</a></li>
-        <li><a href="#">Área Médica</a></li>
-        <li><a href="#">Contato</a></li>
-    </ul>
-</div>
+        <div class="cabecalho-menu"><button>Agendamento</button></div>
+        <div class="cabecalho-menu"><button (click)="navegarParaPaginadelogin()" >Resultado</button></div>
+        <div class="cabecalho-menu"><button id="noticias">Notícias</button></div>
+
+    </nav>
+  </div>
+
+    <div class="servicos">
+        <ul class="list-servicos">
+            <li><a href="#">Institucional</a></li>
+            <li><a href="#">Estrutura</a></li>
+            <li><a href="#">Área Médica</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </div>
+
+
 
 
 </header>

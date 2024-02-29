@@ -1,5 +1,9 @@
 
+::ng-deep body {
+  /* background-color: #7c95e7; */
 
+
+}
 
 section {
 
@@ -14,8 +18,8 @@ section {
 .teladelogin {
 
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
-  background-color: #c9d6ff;
-  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+  /* background-color: #c9d6ff;
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff); */
   padding: 30px;
   position: absolute;
   top: 50%;
