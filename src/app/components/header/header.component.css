@@ -1,28 +1,21 @@
 
-
-
-
-
 .cbs{
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
 }
 
 
 img {
-
-  width: 300px;
-  height: 100px;
-  padding: 30px;
+  padding: 15px;
 }
 
 .cabecalho .cbs .cabecalho-menu-t {
 
-  margin-top: 35px;
   display: flex;
-  margin-right: 80px;
+
 }
 
 
@@ -34,16 +27,20 @@ img {
 
 .cabecalho-menu-t .cabecalho-menu button {
 
-  height: 50px;
+  height: 40px;
   border: none;
-  width: 140px;
+  border-radius: 4px;
+  width: 120px;
+
 
 }
 
 
 
 .cabecalho-menu-t .cabecalho-menu button:hover {
-
+  background-color: #13274F;
+  color: white;
+  transition: background-color 0.6s ease, color 0.6s ease;
   cursor: pointer;
 }
 
@@ -55,9 +52,13 @@ img {
   width: 130px;
 }
 
+.cabecalho-menu #noticias:hover {
+
+  background-color:#6c7c9b ;
+}
+
 
 .list-servicos {
-
   margin-top: -1px;
   list-style: none;
   display: flex;
@@ -75,10 +76,6 @@ img {
 .cabecalho .servicos {
 
   border: 2px solid whitesmoke;
-  height: 20px;
-}
-
-.cabecalho .servicos:hover {
   height: 30px;
 }
 
@@ -86,6 +83,10 @@ img {
 a{
   text-decoration: none;
   color: gray;
+}
+
+li:hover {
+  margin-top: 6px;
 }
 
 
