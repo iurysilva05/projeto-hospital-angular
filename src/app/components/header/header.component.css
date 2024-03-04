@@ -67,9 +67,18 @@ img {
 
 }
 
+.list-servicos a:hover {
+  border-bottom: 1px solid black;
+}
+
 
 .cabecalho .servicos {
+
   border: 2px solid whitesmoke;
+  height: 20px;
+}
+
+.cabecalho .servicos:hover {
   height: 30px;
 }
 
